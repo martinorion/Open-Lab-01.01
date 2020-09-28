@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_01._01
 {
@@ -6,7 +6,12 @@ namespace Open_Lab_01._01
     {
         public bool IsLessThan10(string input)
         {
-            throw new NotImplementedException();
+            int a = int.Parse(input);
+            if (a < 10)
+                return true;
+            else
+                return false;
+
         }
     }
 }
